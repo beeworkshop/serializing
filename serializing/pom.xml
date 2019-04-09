@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>demo</groupId>
+	<artifactId>serializing</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>演示对象序列化</name>
+	<description>含对象序列化，反序列化及序列化至xml</description>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.io7m.xom/xom -->
+		<dependency>
+			<groupId>com.io7m.xom</groupId>
+			<artifactId>xom</artifactId>
+			<version>1.2.10</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
